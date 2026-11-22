@@ -1,0 +1,25 @@
+full_code/
+├── main.py
+├── config.py
+├── utils/
+│   ├── __init__.py
+│   ├── io.py
+│   ├── logger.py
+│   └── realtime_callback.py
+├── core/
+│   ├── __init__.py
+│   ├── cnn_feature_extractor.py
+│   ├── classifier_factory.py
+│   ├── feature_constructor.py
+│   ├── fitness.py
+│   ├── objective.py
+│   └── optimizer_factory.py
+
+Dataset
+ └── Stratified K-Fold (K = 5)
+      ├── Fold i
+      │    ├── Training fold (80%)
+      │    │    ├── Training CNN (90%)
+      │    │    └── Validation CNN (10%)  ← CNN_VAL_RATIO
+      │    └── Test fold (20%)             ← evaluasi fold
+      └── Rata-rata akurasi seluruh fold
