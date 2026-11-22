@@ -1,0 +1,66 @@
+{
+  "A": {
+    "fitness_scenario": "A",
+    "eval_key": "A_selected_plus_f_selected",
+    "best_pop": 90,
+    "best_iter": 60,
+    "best_acc": 0.9496,
+    "elapsed_mnt": 385.4
+  },
+  "B": {
+    "fitness_scenario": "B",
+    "eval_key": "B_discarded_plus_f_discarded",
+    "best_pop": 50,
+    "best_iter": 60,
+    "best_acc": 0.9464,
+    "elapsed_mnt": 250.9
+  },
+  "C": {
+    "fitness_scenario": "C",
+    "eval_key": "C_all_plus_f_selected",
+    "best_pop": 80,
+    "best_iter": 80,
+    "best_acc": 0.9472,
+    "elapsed_mnt": 386.0
+  },
+  "D": {
+    "fitness_scenario": "D",
+    "eval_key": "D_all_plus_f_discarded",
+    "best_pop": 90,
+    "best_iter": 30,
+    "best_acc": 0.9472,
+    "elapsed_mnt": 429.0
+  },
+  "E": {
+    "fitness_scenario": "E",
+    "eval_key": "E_all_plus_f_selected_plus_f_discarded",
+    "best_pop": 100,
+    "best_iter": 10,
+    "best_acc": 0.9448,
+    "elapsed_mnt": 675.9
+  },
+  "F": {
+    "fitness_scenario": "F",
+    "eval_key": "F_all_features_only",
+    "best_pop": 10,
+    "best_iter": 10,
+    "best_acc": 0.9416,
+    "elapsed_mnt": 145.9
+  },
+  "G": {
+    "fitness_scenario": "G",
+    "eval_key": "G_selected_only",
+    "best_pop": 70,
+    "best_iter": 100,
+    "best_acc": 0.9512,
+    "elapsed_mnt": 454.5
+  },
+  "H": {
+    "fitness_scenario": "H",
+    "eval_key": "H_discarded_only",
+    "best_pop": 70,
+    "best_iter": 10,
+    "best_acc": 0.9456,
+    "elapsed_mnt": 739.9
+  }
+}
