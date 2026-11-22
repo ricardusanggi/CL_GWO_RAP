@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Dataset (foto/gambar, tidak di-upload ke GitHub)
+dataset/
+
+# Hasil eksperimen (terlalu besar untuk GitHub)
+results_*/
+dipakai scenario A_H/results_*/
+tambahan_paper/exp1_high_dim_backbone/results/
+tambahan_paper/exp2_non_meta_baselines/results/
+tambahan_paper/exp3_sensitivity/results/
+tambahan_paper/exp4_complexity/results/
+
+# Log dan PID files
+*.log
+*.pid
+
+# Shell scripts (opsional, hapus baris ini jika ingin di-include)
+# *.sh
+
+# VS Code
+.vscode/
+
+# Excel output
+*.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db
