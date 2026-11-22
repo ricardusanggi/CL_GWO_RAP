@@ -1,0 +1,25 @@
+#!/bin/bash
+# ============================================================
+# Shell script untuk menjalankan main_auto_CLGWO_all_scenarios.py
+# di background (nohup) dengan conda env metaWSL
+# ============================================================
+
+source ~/anaconda3/etc/profile.d/conda.sh 2>/dev/null \
+    || source ~/miniconda3/etc/profile.d/conda.sh 2>/dev/null
+
+conda activate metaWSL
+
+cd "/mnt/d/Hibah BIMA/2026/BIMA_RAP/full_code_RAP"
+
+nohup python3 main_auto_CLGWO_all_scenarios.py \
+    > run_auto_CLGWO_all_scenarios.log 2>&1 &
+
+PID=$!
+echo $PID > run_auto_CLGWO_all_scenarios.pid
+
+echo "=================================="
+echo "  PID     : $PID"
+echo "  PID file: run_auto_CLGWO_all_scenarios.pid"
+echo "  Log     : tail -f run_auto_CLGWO_all_scenarios.log"
+echo "  Stop    : kill \$(cat run_auto_CLGWO_all_scenarios.pid)"
+echo "=================================="
